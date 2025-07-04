@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {
     Newspaper,
     BookOpen,
-    Code,
+    Laptop,
     Shield,
     Coffee,
     ExternalLink,
@@ -40,14 +40,14 @@ const MosTimeline: React.FC = () => {
         {
             icon: Camera,
             title: "ช่างภาพ",
-            period: "2019",
+            period: "ปี 2019",
             color: "from-indigo-500 to-indigo-600",
             description: "เริ่มต้นด้วยความชื่นชอบในการถ่ายภาพ"
         },
         {
             icon: Youtube,
             title: "Content Creator",
-            period: "2020",
+            period: "ปี 2020",
             color: "from-red-500 to-red-600",
             description: "เริ่มสร้างเนื้อหาออนไลน์ผ่าน YouTube"
         },
@@ -73,7 +73,7 @@ const MosTimeline: React.FC = () => {
             description: "ช่วงพักการทำงาน เพื่อเรียนรู้และหาทิศทาง"
         },
         {
-            icon: Code,
+            icon: Laptop,
             title: "Software Engineer",
             period: "กรกฎาคม 2022 - ปัจจุบัน",
             color: "from-purple-500 to-purple-600",
